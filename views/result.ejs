@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>API Request Data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+</head>
+
+<body>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1>JSON API Request</h1>
+                <h4 class="lead text-muted">Details of the User..</h4>
+            </div>
+        </section>
+    </main>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <table class="table table-striped text-center">
+                    <tr>
+                        <td>Id</td>
+                        <td><%=id%></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><%=name%></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td><%=userName%></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><%=email%></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><%=address%></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><%=phone%></td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td><%=webSite%></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-muted" style="padding-bottom: 150px;">
+        <div class="container">
+            <p class="float-right">
+                <a href="http://jsonplaceholder.typicode.com/users" target="_blank">Source Link for API</a>
+            </p>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
